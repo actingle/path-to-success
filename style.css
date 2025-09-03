@@ -66,8 +66,192 @@ table {
 }
 
 /* GLOBAL STYLES (mobile first/small) */
-html, body{height:100%;}
-
 body{
-    
+    font-family: 'Inter';
+	font-size: 1em;
+	background-color: #6B8FE7;
+	color: #ffffff;
+	justify-content: center;
+}
+
+main, header, nav, footer{
+	width: 100%;
+	max-width: 420px;
+	margin: 0 auto;
+}
+
+h1, h2{
+	font-family: 'kavoon';
+}
+
+h1{
+	font-size: 3em;
+}
+
+h2{
+	font-size: 2em;
+}
+
+h3{
+	font-size: 1.5em;
+}
+
+h4{
+	font-size: 1.15em;
+	color: #484FB7;
+	font-weight: bold;
+}
+
+nav h2{
+	font-size: 1.5em;
+	font-family: 'Inter';
+	font-weight: bold;
+	font-style: italic;
+	text-transform: uppercase;
+}
+
+header{
+	background: #484FB7;
+	text-align: center;
+	padding: 1.5em 1em;
+}
+
+header p{
+	font-style: italic;
+}
+
+nav{
+	background: #E9BB57;
+	text-align: center;
+	padding: 1em;
+	color: #1E1E1E;
+}
+
+nav a{
+	display: block;
+	background: #ffffff;
+	color: #484FB7;
+	padding: 0.75em;
+	margin: 1em;
+	font-weight: bold;
+	text-decoration: none;
+	text-transform: uppercase;
+}
+
+main{
+	background: #484FB7;
+	padding: 1em;
+
+}
+
+main h3{
+	color: #E9BB57;
+	font-weight: bold;
+}
+
+article{
+	display: block;
+	background: #ffffff;
+	border-radius: 5px;
+	padding: 1em;
+	margin: 1em;
+}
+
+article img{
+	width: 100px;
+	height: 100px;
+}
+
+main p{
+	color: #1E1E1E;
+}
+
+section.why-choose-us{
+	background: #D9526F;
+	margin: 1em;
+	padding: 1em;
+}
+
+section.why-choose-us ul{
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+
+}
+
+section ul li{
+	border-radius: 10px;
+	color: #1E1E1E;
+	font-weight: bold;
+	padding: 1em;
+	margin: 1em;
+	text-align: center;
+}
+
+section ul li:nth-child(1){
+	background: #4CA7C0;
+}
+section ul li:nth-child(2){
+	background: #6B8FE7;
+}
+section ul li:nth-child(3){
+	background: #E9BB57;
+}
+section ul li:nth-child(4){
+	background: #ffffff;
+}
+
+table{
+	max-width: 225px;
+	margin: 1em auto;
+	background: #ffffff;
+	color: #1E1E1E;
+	
+}
+
+th{
+	background: #E9BB57;
+	color: #1E1E1E;
+	text-align: left;
+	font-weight: bold;
+	padding: 0.5em;
+}
+
+td{
+	padding: 1em;
+	border: 1.5px solid #E9BB57;
+}
+
+.cta{
+	background: #D9526F;
+	margin-top: -10px;
+	text-align: center;
+	padding: 1em;
+}
+
+.cta p{
+	color: #ffffff;
+	text-align: left;
+	margin-top: 10px;
+}
+
+.cta button{
+	background: #ffffff;
+	color: #1E1E1E;
+	font-weight: bold;
+	padding: 1em 5em;
+	margin-top: 10px;
+	border-radius: 10px;
+	text-transform: uppercase;
+	box-shadow: 2px 2px #1E1E1E;
+}
+
+footer{
+	background: #484FB7;
+	color: #ffffff;
+	text-align: center;
+	padding: 1em;
+}
+
+footer a{
+	color: #ffffff;
 }
